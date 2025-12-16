@@ -17,7 +17,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="Xunit" />
+	  <ProjectReference Include="..\Todo.Core\Todo.Core.csproj"/>
   </ItemGroup>
 
 </Project>
