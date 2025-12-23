@@ -5,7 +5,7 @@ VisualStudioVersion = 17.13.35931.197
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{36D591C7-65C7-A0D1-1CBC-10CDE441BDC8}"
 	ProjectSection(SolutionItems) = preProject
-		.editorconfig = .editorconfig
+		.editorconfig.base = .editorconfig.base
 		.editorconfig.strict = .editorconfig.strict
 	EndProjectSection
 EndProject
@@ -18,6 +18,13 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Todo.Core.Tests", "Todo.Core.Tests\Todo.Core.Tests.csproj", "{27D70345-5BF8-496D-A6C2-329CB01C6435}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Todo.SampleApp", "Todo.SampleApp\Todo.SampleApp.csproj", "{2B2E9310-9149-4224-ACCD-EAD9E33D3743}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".github", ".github", "{DCC0D744-E884-45AB-ACBB-EF0D4771AAA6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "workflows", "workflows", "{45966F05-FE55-4248-A9BA-090C1DF20EF5}"
+	ProjectSection(SolutionItems) = preProject
+		ci-analysis.yml = ci-analysis.yml
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +52,7 @@ Global
 		{883B3ED8-F1A9-4C5D-BAE8-004E5AB2D17D} = {71ED85FC-521E-40F9-B85F-7A679A673F80}
 		{27D70345-5BF8-496D-A6C2-329CB01C6435} = {5B25BBED-29A2-414B-91A9-5550AA473F7E}
 		{2B2E9310-9149-4224-ACCD-EAD9E33D3743} = {71ED85FC-521E-40F9-B85F-7A679A673F80}
+		{45966F05-FE55-4248-A9BA-090C1DF20EF5} = {DCC0D744-E884-45AB-ACBB-EF0D4771AAA6}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {792809EC-4EB0-464E-B6AB-6D316966D43E}
